@@ -1,0 +1,454 @@
+@font-face {
+    font-family: Pixel1;
+    src: url(Fontes/Pixelmania.ttf);
+}
+
+@font-face {
+    font-family: Pixel2;
+    src: url(Fontes/PixelIntv.otf);
+}
+
+@font-face {
+    font-family: Pixel3;
+    src: url(Fontes/Big_Pixel_Shadow_demo.otf);
+}
+
+@font-face {
+    font-family: Pixel4;
+    src: url(Fontes/Big\ Pixel\ demo.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+main {
+    margin: auto;
+    background-color: black;
+    width: 90%;
+    height: 2300px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #00A8BB;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    float: left;
+    background-color: #00A8BB;
+}
+
+.Pixel1 {
+    font-family: Pixel1;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
+    float: left;
+}
+
+.Pixel2 {
+    font-family: Pixel2;
+    float: left;
+    color: white;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-left: 2%;
+    font-weight: 200;
+}
+
+.Pixel2:hover {
+    background-color: white;
+    color: #00A8BB;
+    ;
+    padding: 2px;
+}
+
+.Pixel3 {
+    font-family: Pixel3;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+#img_header {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+#nav_header {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+#principal {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+
+.titulo {
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+    font-family: Pixel2;
+    font-size: 54px;
+}
+
+.txtconteudo {
+    position: relative;
+    text-align: left;
+    margin-top: 50px;
+    color: #fff;
+    font-family: Pixel4;
+    font-size: 25px;
+}
+
+.titulo2 {
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+    font-family: Pixel3;
+    font-size: 40px;
+}
+
+.imgprincipal {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    height: 600px;
+}
+
+#section1 {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.imp1 {
+    margin-left: 4%;
+    padding-top: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.imp2 {
+    position: relative;
+    margin-left: 4%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.p1 {
+    color: white;
+    font-size: 36px;
+    font-family: Pixel2;
+    margin-left: 2%;
+    line-height: 42px;
+}
+
+.pimp {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.p2 {
+    font-family: Pixel4;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 2%;
+    margin-top: 50px;
+    line-height: 33px;
+}
+
+.envelope {
+    width: 25px;
+    height: 27px;
+    margin-top: 23px;
+    margin-left: 3%;
+    float: left;
+}
+
+.envelopeP {
+    color: white;
+    float: left;
+    margin-top: 23px;
+    margin-left: 1%;
+    text-decoration: underline;
+}
+
+.redes {
+    width: 25px;
+    height: 25px;
+    margin-top: 23px;
+    float: right;
+    margin-right: 2%;
+}
+
+.redes2 {
+    width: 30px;
+    height: 30px;
+    margin-top: 21px;
+    float: right;
+    margin-right: 2%;
+}
+
+@media only screen and (max-width:1424px) {
+    main {
+        height: 2000px;
+    }
+    .imp1 {
+        background-color: #00A8BB;
+        padding: 0;
+        border-radius: 10px;
+    }
+    .imp1 img {
+        display: none;
+    }
+    .p1 {
+        text-align: center;
+        font-size: 21px;
+        text-decoration: underline;
+    }
+    .p2 {
+        text-align: center;
+        margin-top: 5px;
+        font-size: 15px;
+        font-style: italic;
+    }
+}
+
+@media only screen and (max-width:1180px) {
+    header {
+        height: 50px;
+    }
+    main {
+        height: 1800px;
+    }
+    .Pixel1 {
+        font-size: 10px;
+        margin-top: 18px;
+    }
+    .Pixel2 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    #franquias1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    #franquias1 img {
+        width: 50%;
+        height: 200px;
+        margin-top: 40px;
+    }
+    #franquias2 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    #franquias2 img {
+        width: 50%;
+        height: 200px;
+        margin-top: 40px;
+    }
+    .imp1 {
+        background-color: #00A8BB;
+        padding: 0;
+        border-radius: 10px;
+    }
+    .imp1 img {
+        display: none;
+    }
+    .p1 {
+        text-align: center;
+        font-size: 21px;
+        text-decoration: underline;
+    }
+    .p2 {
+        text-align: center;
+        margin-top: 5px;
+        font-size: 15px;
+        font-style: italic;
+    }
+    .txtconteudo {
+        font-size: 20px;
+    }
+    .imgprincipal {
+        align-self: center;
+        width: 60%;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width:896px) {
+    header {
+        height: 50px;
+    }
+    main {
+        height: 1500px;
+    }
+    #img_header {
+        width: 30%;
+    }
+    #nav_header {
+        width: 70%;
+    }
+    .Pixel1 {
+        font-size: 10px;
+    }
+    .Pixel2 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    #franquias1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    #franquias1 img {
+        width: 50%;
+        height: 200px;
+        margin-top: 40px;
+    }
+    #franquias2 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    #franquias2 img {
+        width: 50%;
+        height: 200px;
+        margin-top: 40px;
+    }
+    .imp1 {
+        background-color: #00A8BB;
+        padding: 0;
+        border-radius: 10px;
+    }
+    .imp1 img {
+        display: none;
+    }
+    .p1 {
+        text-align: center;
+        font-size: 21px;
+        text-decoration: underline;
+    }
+    .p2 {
+        text-align: center;
+        margin-top: 5px;
+        font-size: 15px;
+        font-style: italic;
+    }
+    .titulo {
+        margin-top: 60px;
+        font-size: 25px;
+    }
+    .txtconteudo {
+        font-size: 16px;
+    }
+    .imgprincipal {
+        align-self: center;
+        width: 60%;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width:690px) {
+    header {
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header a {
+        text-decoration: none;
+    }
+    main {
+        height: 1600px;
+    }
+    #img_header {
+        width: 60%;
+        background-color: #00A8BB;
+    }
+    #nav_header {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Pixel1 {
+        float: none;
+        font-size: 10px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .Pixel2 {
+        float: none;
+        font-size: 18px;
+        margin-top: 15px;
+        text-align: center;
+        text-decoration: none;
+    }
+    #franquias1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    #franquias1 img {
+        width: 50%;
+        height: 200px;
+        margin-top: 40px;
+    }
+    #franquias2 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    #franquias2 img {
+        width: 50%;
+        height: 200px;
+        margin-top: 40px;
+    }
+    .imp1 {
+        background-color: #00A8BB;
+        padding: 0;
+        border-radius: 10px;
+    }
+    .imp1 img {
+        display: none;
+    }
+    .p1 {
+        text-align: center;
+        font-size: 21px;
+        text-decoration: underline;
+    }
+    .p2 {
+        text-align: center;
+        margin-top: 5px;
+        font-size: 15px;
+        font-style: italic;
+    }
+}

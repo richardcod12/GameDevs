@@ -1,0 +1,335 @@
+@font-face {
+    font-family: Pixel1;
+    src: url(Fontes/Pixelmania.ttf);
+}
+
+@font-face {
+    font-family: Pixel2;
+    src: url(Fontes/PixelIntv.otf);
+}
+
+@font-face {
+    font-family: Pixel3;
+    src: url(Fontes/Big_Pixel_Shadow_demo.otf);
+}
+
+@font-face {
+    font-family: Pixel4;
+    src: url(Fontes/Big\ Pixel\ demo.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+main {
+    margin: auto;
+    background-color: black;
+    width: 90%;
+    height: 2200px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #00008B;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    float: left;
+    background-color: #00008B;
+}
+
+.Pixel1 {
+    font-family: Pixel1;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
+    float: left;
+}
+
+.Pixel2 {
+    font-family: Pixel2;
+    float: left;
+    color: white;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-left: 2%;
+    font-weight: 200;
+}
+
+.Pixel2:hover {
+    background-color: white;
+    color: #00008B;
+    padding: 2px;
+}
+
+.Pixel3 {
+    font-family: Pixel3;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+#img_header {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+#nav_header {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+#principal {
+    position: relative;
+    width: 100%;
+}
+
+.titulo {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: Pixel3;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+#buscar {
+    position: relative;
+    width: 80%;
+    height: 40px;
+    background-color: #fff;
+    color: #000;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#buscar img {
+    width: 28px;
+    height: 33px;
+}
+
+#div1_2022 {
+    position: relative;
+    margin-left: 3%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imgs {
+    position: relative;
+    margin-right: 3%;
+    border-radius: 5px 5px 5px 5px;
+    transition: 1s all;
+    width: auto;
+    height: auto;
+}
+
+.imgs:hover {
+    transform: scale(1.2);
+}
+
+#div1_abril {
+    position: relative;
+    margin-left: 3%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#div2_abril {
+    position: relative;
+    margin-left: 3%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#div1_maio {
+    position: relative;
+    margin-left: 3%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#div2_maio {
+    position: relative;
+    margin-left: 3%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.envelope {
+    width: 25px;
+    height: 27px;
+    margin-top: 23px;
+    margin-left: 30px;
+    float: left;
+}
+
+.envelopeP {
+    color: white;
+    float: left;
+    margin-top: 23px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.redes {
+    width: 25px;
+    height: 25px;
+    margin-top: 23px;
+    float: right;
+    margin-right: 20px;
+}
+
+.redes2 {
+    width: 30px;
+    height: 30px;
+    margin-top: 21px;
+    float: right;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width:1180px) {
+    header {
+        height: 50px;
+    }
+    main {
+        height: 5600px;
+    }
+    .Pixel1 {
+        font-size: 10px;
+        margin-top: 18px;
+    }
+    .Pixel2 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    #div1_2022,
+    #div1_abril,
+    #div2_abril,
+    #div1_maio,
+    #div2_maio {
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgs {
+        width: 330px;
+        height: 264px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width:896px) {
+    header {
+        height: 50px;
+    }
+    main {
+        height: 5600px;
+    }
+    #img_header {
+        width: 30%;
+    }
+    #nav_header {
+        width: 70%;
+    }
+    .Pixel1 {
+        font-size: 10px;
+    }
+    .Pixel2 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    #div1_2022,
+    #div1_abril,
+    #div2_abril,
+    #div1_maio,
+    #div2_maio {
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgs {
+        width: 330px;
+        height: 264px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width:690px) {
+    header {
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header a {
+        text-decoration: none;
+    }
+    main {
+        height: 5600px;
+    }
+    #img_header {
+        width: 60%;
+        background-color: #00008B;
+    }
+    #nav_header {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Pixel1 {
+        float: none;
+        font-size: 10px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .Pixel2 {
+        float: none;
+        font-size: 18px;
+        margin-top: 15px;
+        text-align: center;
+        text-decoration: none;
+    }
+    #div1_2022,
+    #div1_abril,
+    #div2_abril,
+    #div1_maio,
+    #div2_maio {
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgs {
+        width: 330px;
+        height: 264px;
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,926 @@
+@font-face {
+    font-family: Pixel1;
+    src: url(Fontes/Pixelmania.ttf);
+}
+
+@font-face {
+    font-family: Pixel2;
+    src: url(Fontes/PixelIntv.otf);
+}
+
+@font-face {
+    font-family: Pixel3;
+    src: url(Fontes/Big_Pixel_Shadow_demo.otf);
+}
+
+@font-face {
+    font-family: Pixel4;
+    src: url(Fontes/Big\ Pixel\ demo.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    margin: auto;
+    background-color: #000;
+}
+
+main {
+    margin: auto;
+    background-color: black;
+    width: 90%;
+    height: 2500px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #00008B;
+    margin-bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    float: left;
+    background-color: #00008B;
+}
+
+#img_header {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+#nav_header {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+.Pixel1 {
+    font-family: Pixel1;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
+    float: left;
+}
+
+.Pixel2 {
+    font-family: Pixel2;
+    float: left;
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-left: 2%;
+    font-weight: 200;
+}
+
+.Pixel2-2 {
+    font-family: Pixel2;
+    float: left;
+    color: white;
+    font-size: 24px;
+    margin-top: 35px;
+    margin-left: 2%;
+    font-weight: 200;
+}
+
+.Pixel2:hover {
+    background-color: white;
+    color: #00008B;
+    padding: 2px;
+}
+
+.Pixel3 {
+    font-family: Pixel3;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.Pixel3-2 {
+    font-family: Pixel3;
+    color: white;
+    text-align: center;
+    padding-top: 2.7%;
+    margin-bottom: 2%;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+#carrossel1 {
+    margin: auto;
+    margin-top: 30px;
+    width: 95%;
+    height: 330px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(Imagens/outras/NextDireita.png);
+    width: 40%;
+    height: 80px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(Imagens/outras/NextEsquerda.png);
+    width: 40%;
+    height: 80px;
+}
+
+.TamanhoCarrossel {
+    width: 102%;
+    height: 350px;
+}
+
+#Fileira1 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#Fileira2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.playstation {
+    position: relative;
+    width: 31%;
+    height: 203px;
+    background-color: #0000AA;
+    border-radius: 5px;
+    color: #FFF;
+    float: left;
+}
+
+.playstation:hover {
+    background-color: #FFF;
+    color: #0000AA;
+}
+
+.h1-playstation {
+    margin-top: 20px;
+    font-family: Pixel2;
+    font-size: 32px;
+    text-align: center;
+}
+
+.img-playstation {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 33%;
+    width: 30%;
+    height: 98px;
+}
+
+.img-playstation:hover {
+    transform: scale(1.5);
+    transition: 1.5s all;
+}
+
+.nintendo {
+    position: relative;
+    width: 31%;
+    height: 203px;
+    background-color: #AA0000;
+    border-radius: 5px;
+    float: left;
+    color: #FFF;
+}
+
+.nintendo:hover {
+    background-color: #FFF;
+    color: #F00;
+}
+
+.h1-nintendo {
+    position: relative;
+    margin-top: 30px;
+    font-family: Pixel2;
+    font-size: 32px;
+    text-align: center;
+}
+
+.img-nintendo {
+    position: relative;
+    margin-top: 60px;
+    margin-left: 23%;
+    margin-bottom: 3%;
+    width: 55%;
+    height: 53px;
+}
+
+.img-nintendo:hover {
+    transform: scale(1.5);
+    transition: 1.5s all;
+}
+
+.xbox {
+    position: relative;
+    width: 31%;
+    height: 203px;
+    background-color: #00AA00;
+    color: white;
+    border-radius: 5px;
+    float: left;
+}
+
+.xbox:hover {
+    background-color: #FFF;
+    color: #00AA00;
+}
+
+.img-xbox {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 37%;
+    width: 30%;
+    height: 98px;
+}
+
+.img-xbox:hover {
+    transform: scale(1.1);
+    transition: 1.5s all;
+    filter: saturate(50);
+}
+
+.h1-xbox {
+    font-family: Pixel2;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 3.5%;
+}
+
+.capcom {
+    position: relative;
+    width: 31%;
+    height: 203px;
+    background-color: #CCCC00;
+    border-radius: 5px;
+    float: left;
+    color: white;
+}
+
+.capcom:hover {
+    background-color: white;
+    color: #CCCC00;
+}
+
+.h1-capcom {
+    font-family: Pixel2;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img-capcom {
+    width: 60%;
+    margin-left: 23%;
+    margin-top: 50px;
+    margin-bottom: 5%;
+}
+
+.img-capcom:hover {
+    transform: scale(1.5);
+    transition: 1.5s all;
+}
+
+.sega {
+    position: relative;
+    width: 31%;
+    height: 203px;
+    background-color: #00A8BB;
+    border-radius: 5px;
+    float: left;
+    color: white;
+}
+
+.sega:hover {
+    background-color: white;
+    color: #00A8BB;
+}
+
+.h1-sega {
+    font-family: Pixel2;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.img-sega {
+    width: 60%;
+    height: 100px;
+    margin-left: 23%;
+    margin-top: 20px;
+    margin-bottom: 1.8%;
+}
+
+.img-sega:hover {
+    transform: scale(1.3);
+    transition: 1.5s all;
+}
+
+.indies {
+    position: relative;
+    width: 31%;
+    height: 203px;
+    background-color: #DDA500;
+    border-radius: 5px;
+    float: left;
+    color: white;
+}
+
+.indies:hover {
+    background-color: white;
+    color: #DDA500;
+}
+
+.img-indie {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 36%;
+    width: 30%;
+    height: 98px;
+}
+
+.img-indie:hover {
+    transform: scale(1.5);
+    transition: 1.5s all;
+}
+
+.h1-indie {
+    font-family: Pixel2;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 2%;
+}
+
+#section2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.Gran {
+    width: 31%;
+    height: 203px;
+    background-color: red;
+    float: left;
+    border-radius: 5px;
+    font-family: Pixel2;
+    background-image: url(Imagens/outras/Gran.PNG);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.Gran h1 {
+    margin-top: 150px;
+}
+
+.Chocobo {
+    width: 31%;
+    height: 203px;
+    background-color: red;
+    float: left;
+    border-radius: 5px;
+    font-family: Pixel2;
+    background-image: url(Imagens/outras/Chocobo.JPG);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.Chocobo h1 {
+    margin-top: 150px;
+}
+
+.Ghostwire {
+    width: 31%;
+    height: 203px;
+    background-color: red;
+    float: left;
+    border-radius: 5px;
+    font-family: Pixel2;
+    background-image: url(Imagens/outras/ghostwire.JPG);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.Ghostwire h1 {
+    margin-top: 150px;
+}
+
+.p1 {
+    color: white;
+    font-size: 36px;
+    font-family: Pixel2;
+    margin-left: 2%;
+}
+
+.imp1 a:hover {
+    transform: scale(1.01);
+}
+
+.imp1-hover:hover {
+    background-color: #DDA500;
+    width: 100%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+    transition: 1s all;
+}
+
+.imp2 a:hover {
+    transform: scale(1.01);
+}
+
+.imp2-hover:hover {
+    background-color: red;
+    width: 100%;
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    border-radius: 5px;
+    transition: 1s all;
+}
+
+.imp1 {
+    margin-left: 4%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.imp2 {
+    margin-left: 4%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.imp1-hover,
+.imp2-hover {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+
+}
+
+.imp2-hover {
+    margin-top: 50px;
+}
+
+.p2 {
+    font-family: Pixel4;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFF;
+}
+
+#section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0.7%;
+}
+
+.div1 {
+    width: 31%;
+    height: 270px;
+    background-color: #CCC;
+    border-radius: 6px;
+}
+
+.img-redDead {
+    width: 100%;
+    height: 270px;
+    border-radius: 6px;
+}
+
+.div2 {
+    width: 31%;
+    height: 270px;
+    background-color: #CCC;
+    border-radius: 6px;
+}
+
+.img-valhalla {
+    width: 100%;
+    height: 270px;
+    border-radius: 6px;
+}
+
+.div3 {
+    width: 31%;
+    height: 270px;
+    background-color: #CCC;
+    border-radius: 6px;
+}
+
+.img-yakuza {
+    width: 100%;
+    height: 100%;
+}
+
+.redes {
+    width: 25px;
+    height: 25px;
+    margin-top: 23px;
+    float: right;
+    margin-right: 20px;
+}
+
+.redes2 {
+    width: 30px;
+    height: 30px;
+    margin-top: 21px;
+    float: right;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width:1480px) {
+    .Gran h1,
+    .Ghostwire h1,
+    .Chocobo h1 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:1180px) {
+    header {
+        height: 50px;
+    }
+    main {
+        height: 2300px;
+    }
+    .Pixel1 {
+        font-size: 10px;
+        margin-top: 18px;
+    }
+    .Pixel2 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    #franquias1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    #franquias1 img {
+        width: 50%;
+        height: 200px;
+        margin-top: 40px;
+    }
+    #franquias2 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    #franquias2 img {
+        width: 50%;
+        height: 200px;
+        margin-top: 40px;
+    }
+    .imp1-hover {
+        width: 70%;
+        align-self: center;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .imp2-hover {
+        width: 70%;
+        align-self: center;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .imp1-hover img,
+    .imp2-hover img {
+        width: 100%;
+        height: 200px;
+        padding-top: 20px;
+        padding-left: 30%;
+    }
+    .p1 {
+        text-align: center;
+        font-size: 21px;
+        text-decoration: underline;
+    }
+    .p2 {
+        text-align: center;
+        margin-top: 5px;
+        font-size: 15px;
+        font-style: italic;
+    }
+    .h1-capcom,
+    .h1-indie,
+    .h1-nintendo,
+    .h1-playstation,
+    .h1-sega,
+    .h1-xbox {
+        font-size: 20px;
+        margin-top: 1.5%;
+    }
+}
+
+@media only screen and (max-width:896px) {
+    header {
+        height: 50px;
+    }
+    main {
+        height: 2700px;
+    }
+    #img_header {
+        width: 30%;
+    }
+    #nav_header {
+        width: 70%;
+    }
+    .Pixel1 {
+        font-size: 10px;
+    }
+    .Pixel2 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    #franquias1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    #franquias1 img {
+        width: 50%;
+        height: 200px;
+        margin-top: 40px;
+    }
+    #franquias2 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    #franquias2 img {
+        width: 50%;
+        height: 200px;
+        margin-top: 40px;
+    }
+    .imp1-hover {
+        width: 70%;
+        align-self: center;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .imp2-hover {
+        width: 70%;
+        align-self: center;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .imp1-hover img,
+    .imp2-hover img {
+        width: 100%;
+        height: 200px;
+        padding-top: 20px;
+        padding-left: 30%;
+    }
+    .p1 {
+        text-align: center;
+        font-size: 21px;
+        text-decoration: underline;
+    }
+    .p2 {
+        text-align: center;
+        margin-top: 5px;
+        font-size: 15px;
+        font-style: italic;
+    }
+    .playstation,
+    .nintendo,
+    .xbox,
+    .capcom,
+    .sega,
+    .indies {
+        height: 150px;
+    }
+    #section3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .div1,
+    .div2,
+    .div3 {
+        width: 50%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .img-redDead,
+    .img-valhalla,
+    .img-yakuza {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width:690px) {
+    header {
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header a {
+        text-decoration: none;
+    }
+    main {
+        height: 3200px;
+    }
+    .Gran h1,
+    .Ghostwire h1,
+    .Chocobo h1 {
+        font-size: 20px;
+    }
+    #img_header {
+        width: 60%;
+        background-color: #00008B;
+    }
+    #nav_header {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Pixel1 {
+        float: none;
+        font-size: 10px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .Pixel2 {
+        float: none;
+        font-size: 18px;
+        margin-top: 15px;
+        text-align: center;
+        text-decoration: none;
+    }
+    #franquias1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    #franquias1 img {
+        width: 50%;
+        height: 200px;
+        margin-top: 40px;
+    }
+    #franquias2 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    #franquias2 img {
+        width: 50%;
+        height: 200px;
+        margin-top: 40px;
+    }
+    .imp1-hover {
+        width: 100%;
+        align-self: center;
+        border-radius: 10px;
+        margin: auto;
+
+    }
+    .imp2-hover {
+        width: 100%;
+        align-self: center;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .imp1-hover img,
+    .imp2-hover img {
+        width: 120%;
+        height: 200px;
+        padding-top: 20px;
+        padding-left: 30%;
+    }
+    .p1 {
+        text-align: center;
+        font-size: 21px;
+        text-decoration: underline;
+    }
+    .p2 {
+        text-align: center;
+        margin-top: 5px;
+        font-size: 15px;
+        font-style: italic;
+    }
+    .h1-capcom,
+    .h1-indie,
+    .h1-nintendo,
+    .h1-playstation,
+    .h1-sega,
+    .h1-xbox {
+        font-size: 15px;
+    }
+
+    .img-playstation{
+        height: 80px;
+        width: 45%;
+        margin-left: 25% ;
+    }
+
+    .img-nintendo{
+        margin-bottom: 20px;
+        height: 30px;
+    }
+
+    .img-xbox{
+        height: 50px;
+        margin-bottom: 15px;
+        width: 40%;
+        margin-left: 28%;
+        margin-top: 50px;
+    }
+
+    .img-capcom{
+        height: 30px;
+        width: 75%;
+        margin-left: 13%;
+        margin-bottom:25px ;
+    }
+
+    .img-sega{
+        height: 40px;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+
+    .img-indie{
+        height: 60px;
+        width: 50%;
+        margin-top: 45px;
+        margin-left: 23%;
+        margin-bottom: 2px;
+    }
+
+    #section2{
+        flex-direction: column;
+        
+    }
+
+    .Gran{
+        width: 100%;
+
+    }
+
+    .Chocobo{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .Ghostwire{
+        width: 100%;
+    }
+
+    #section3{
+        float: right;
+        width: 300px;
+    }
+
+    .div1, .div2, .div3{
+        margin-right: 45%;
+        width: 90%;
+    }
+
+    footer{
+        position: relative;
+        float: right;
+    }
+
+    .p2{
+        display: none;
+    }
+
+}

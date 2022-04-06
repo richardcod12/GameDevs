@@ -1,0 +1,328 @@
+@font-face {
+    font-family: Pixel1;
+    src: url(fontes/Pixelmania.ttf);
+}
+
+@font-face {
+    font-family: Pixel2;
+    src: url(fontes/PixelIntv.otf);
+}
+
+@font-face {
+    font-family: Pixel3;
+    src: url(fontes/Big_Pixel_Shadow_demo.otf);
+}
+
+@font-face {
+    font-family: Pixel4;
+    src: url(fontes/Big_Pixel_demo.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #000;
+}
+
+main {
+    margin: auto;
+    background-color: black;
+    width: 90%;
+    height: 2050px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #00008B;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    float: left;
+    background-color: #00008B;
+}
+
+.Pixel1 {
+    font-family: Pixel1;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
+    float: left;
+}
+
+.Pixel2 {
+    font-family: Pixel2;
+    float: left;
+    color: white;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-left: 2%;
+    font-weight: 200;
+}
+
+.Pixel2:hover {
+    background-color: white;
+    color: #00008B;
+    padding: 2px;
+}
+
+.Pixel3 {
+    font-family: Pixel3;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+#img_header {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+#nav_header {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+#principal {
+    position: relative;
+    width: 100%;
+}
+
+.titulo {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: Pixel3;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+#buscar {
+    position: relative;
+    width: 80%;
+    height: 40px;
+    background-color: #fff;
+    color: #000;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#steam,
+#playstation,
+#nintendo,
+#microsoft {
+    position: relative;
+    margin-top: 100px;
+}
+
+#div_steam {
+    position: relative;
+    margin-left: 3%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imgs {
+    position: relative;
+    margin-right: 3%;
+}
+
+#div_playstation {
+    position: relative;
+    margin-left: 3%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#div_nintendo {
+    position: relative;
+    margin-left: 3%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#div_microsoft {
+    position: relative;
+    margin-left: 3%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.envelope {
+    width: 25px;
+    height: 27px;
+    margin-top: 23px;
+    margin-left: 30px;
+    float: left;
+}
+
+.envelopeP {
+    color: white;
+    float: left;
+    margin-top: 23px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.redes {
+    width: 25px;
+    height: 25px;
+    margin-top: 23px;
+    float: right;
+    margin-right: 20px;
+}
+
+.redes2 {
+    width: 30px;
+    height: 30px;
+    margin-top: 21px;
+    float: right;
+    margin-right: 20px;
+}
+
+.imgs:hover {
+    transition: 1s all;
+    -webkit-transform: scale(1.2);
+}
+
+.lupa {
+    position: relative;
+    margin-left: 20%;
+}
+
+@media only screen and (max-width:1180px) {
+    header {
+        height: 50px;
+    }
+    main {
+        height: 4800px;
+    }
+    .Pixel1 {
+        font-size: 10px;
+        margin-top: 18px;
+    }
+    .Pixel2 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    #div_steam,
+    #div_playstation,
+    #div_nintendo,
+    #div_microsoft {
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgs {
+        width: 330px;
+        height: 264px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width:896px) {
+    header {
+        height: 50px;
+    }
+    main {
+        height: 4800px;
+    }
+    #img_header {
+        width: 30%;
+    }
+    #nav_header {
+        width: 70%;
+    }
+    .Pixel1 {
+        font-size: 10px;
+    }
+    .Pixel2 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    #div_steam,
+    #div_playstation,
+    #div_nintendo,
+    #div_microsoft {
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgs {
+        width: 330px;
+        height: 264px;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width:690px) {
+    header {
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header a {
+        text-decoration: none;
+    }
+    main {
+        height: 4800px;
+    }
+    #img_header {
+        width: 60%;
+        background-color: #00008B;
+    }
+    #nav_header {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Pixel1 {
+        float: none;
+        font-size: 10px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .Pixel2 {
+        float: none;
+        font-size: 18px;
+        margin-top: 15px;
+        text-align: center;
+        text-decoration: none;
+    }
+    #div_steam,
+    #div_playstation,
+    #div_nintendo,
+    #div_microsoft {
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgs {
+        width: 330px;
+        height: 264px;
+        margin-bottom: 50px;
+    }
+}
